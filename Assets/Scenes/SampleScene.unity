@@ -427,7 +427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3d58823443d8c4f4294f5536371adf97, type: 3}
       propertyPath: m_Name
-      value: Y Bot@Idle
+      value: Y Bot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -436,6 +436,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d58823443d8c4f4294f5536371adf97, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1868275458}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d58823443d8c4f4294f5536371adf97, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868275460}
   m_SourcePrefab: {fileID: 100100000, guid: 3d58823443d8c4f4294f5536371adf97, type: 3}
 --- !u!1 &832575517
 GameObject:
@@ -622,6 +625,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1868275460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868275457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdabe5d75afb34ea39550a0bdde8742a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
